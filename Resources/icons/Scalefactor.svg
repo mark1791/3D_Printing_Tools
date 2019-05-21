@@ -107,8 +107,8 @@
            x="67.14286"
            y="216.8054" /></flowRegion><flowPara
          id="flowPara4578" /></flowRoot>    <path
-       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:3.91825032;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 61.718269,304.04522 0.61492995,303.77958 0.77532063,341.80985 61.998877,342.04114 Z"
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.99364865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 53.642619,307.04353 -41.44787,-0.2455 0.108798,35.14616 41.529415,0.21375 z"
        id="path831"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
@@ -126,18 +126,19 @@
          style="stroke-width:0.42395014">Scale Factor</tspan></text>
     <path
        style="fill:none;stroke:#ff0000;stroke-width:2.51338577;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 11.788129,310.21033 53.484558,336.0139"
+       d="m 16.430986,310.83533 33.125001,27.58928"
        id="path848"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:#ff0000;fill-opacity:1;stroke:#fd0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 6.966701,307.35319 10.357142,14.55357 7.410715,-12.32143 z"
+       d="m 14.555987,309.04962 6.071428,12.14286 6.875001,-7.76786 z"
        id="path850"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <path
        style="fill:#ff0000;fill-opacity:1;stroke:#fd0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 58.472376,338.42173 -10.35714,-14.55357 -7.41071,12.32143 z"
+       d="m 51.150947,340.11816 -5.714283,-11.78571 -6.339281,7.14286 z"
        id="path850-1"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />

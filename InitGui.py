@@ -28,7 +28,7 @@ class ScriptXWorkbench (Workbench):
 		import SM_Mesh_Solid # Import module to convert a mesh to a refined Solid
 		import Test_Mod # Test Code Module
 
-		list = ["Scale_Imperial_mm","Scale_mm_imperial","Descale_Geometry","Scale50_Geometry","Scale_Factor_Geom","ReScale_Fit_Printer_Geometry","BoxMesh_Geometry","Solid_Mesh_Refined_Cmd_Geometry","Transparency50_Object","Transparency100_Object","Hide_Object","Show_Object","Random_Colour_Object","White_Colour_Object","Yellow_Colour_Object","Orange_Colour_Object","Red_Colour_Object","Pink_Colour_Object","Purple_Colour_Object","Blue_Colour_Object","Cyan_Colour_Object","Green_Colour_Object","Brown_Colour_Object","Black_Colour_Object","Line_Width_Change_Object","Bed_length_S","Die_Length_S","Scale_Factor_S"] # Contains the commands
+		list = ["Scale_Imperial_mm","Scale_mm_imperial","Descale_Geometry","Scale50_Geometry","Scale_Factor_Geom","ReScale_Fit_Printer_Geometry","BoxMesh_Geometry","Solid_Mesh_Refined_Cmd_Geometry","Transparency50_Object","Transparency100_Object","Hide_Object","Show_Object","Random_Colour_Object","White_Colour_Object","Yellow_Colour_Object","Orange_Colour_Object","Red_Colour_Object","Pink_Colour_Object","Purple_Colour_Object","Blue_Colour_Object","Cyan_Colour_Object","Green_Colour_Object","Brown_Colour_Object","Black_Colour_Object","Line_Width_Change_Object","Bounding_Box_Geom","Bed_length_S","Die_Length_S","Scale_Factor_S"] # Contains the commands
 		self.appendToolbar("My Scripts",list) 
         
 Gui.addWorkbench(ScriptXWorkbench())

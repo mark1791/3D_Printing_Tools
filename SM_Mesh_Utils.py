@@ -29,6 +29,7 @@ class MeshXScaleGeomCmd:
 			Die_Length = 2400.00
 			scale_factor = 0.5
 			BoundingBoxShow = True
+			#mat_scale_on = False
         	#FreeCAD.Console.PrintMessage(self.changevalue)	
 		
 	def Activated(self): 
@@ -41,18 +42,21 @@ class MeshXScaleGeomCmd:
 			global bedlength
 			bedlength = global_variable_func(bedlength, "Printer Bed Length", "Enter Size of Printer Bed Size(", True)
 			FreeCAD.Console.PrintMessage("Printer Bed Length change to " + str(bedlength))
+			mat_scale_on = False
 			
 		#Change Bed size Global Value
 		if self.changevalue == "Die_Length_Size":
 			global Die_Length
 			Die_Length = global_variable_func(Die_Length, "Die Size", "Enter Size of Die to scale down(", True)
 			FreeCAD.Console.PrintMessage("Die size changed to " + str(Die_Length))
+			mat_scale_on = False
 		
 		#Change Variable Scale Value
 		if self.changevalue == "Global_Scale_Value":
 			global scale_factor
 			scale_factor = global_variable_func(scale_factor, "Scale Factor", "Enter Scale Factor of Die to scale(", True)
 			FreeCAD.Console.PrintMessage("Die size changed to " + str(scale_factor))
+			mat_scale_on = False
 			
 		sel = FreeCADGui.Selection.getSelection() # " sel " contains the items selected
 		#App.Console.PrintMessage(str(sel)+"Current Selected named part")
@@ -72,11 +76,13 @@ class MeshXScaleGeomCmd:
 			
 		#Reduces Mesh by 95% to fit 150mm Printer Bed
 		if self.changevalue == "Printer_Com":
+			#global scale_factor
 			De_Scale_Factor = 0.00
 			#bedlength = 150.00
 			#Die_Length = 2400.00
 			De_Scale_Factor = bedlength/Die_Length
 			mat.scale(De_Scale_Factor,De_Scale_Factor,De_Scale_Factor)
+			scale_factor = De_Scale_Factor
 			FreeCAD.Console.PrintMessage('Reduces  Selected Objects Mesh by 95% to fit 150mm Printer Bed\n')
 			mat_scale_on = True
 		#Converts Imperial Mesh to Metric

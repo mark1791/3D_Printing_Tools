@@ -25,7 +25,7 @@ class MeshXScaleGeomCmd:
 			global bedlength
 			global Die_Length
 			global BoundingBoxShow
-			bedlength = 150.00
+			bedlength = 205.00#Set to Anycubic bed size
 			Die_Length = 2400.00
 			scale_factor = 0.5
 			BoundingBoxShow = True

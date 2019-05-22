@@ -37,3 +37,4 @@ Define the size of the object to be scaled from.
 Define the Scale factor for the mesh to be scaled, 0.5 = 50% scale 2.0 = 200% scale.
 
 
+How to install into FreeCAD, refer to https://www.freecadweb.org/wiki/Installing_more_workbenches for a manual install for working with FreeCAD

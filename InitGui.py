@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-__title__ = "Mesh Utilities workbench"
+__title__ = "3D Printing Tools workbench"
 __author__ = "Mark Hillier"
 __license__ = "LGPL 2.1"
-__doc__ = "FreeCAD workbench that offers a collection of tools mainly related to Scaling Meshes and modifiying geometry properties."
+__doc__ = "FreeCAD workbench that offers a collection of tools mainly related to Scaling Meshes and modifiying geometry properties to help when preparing to do 3D Printing."
 
 import os
 import sys

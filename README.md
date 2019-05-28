@@ -1,4 +1,4 @@
-# MeshTools
+# 3D Printing Tools
 FreeCAD Workbench for working on imported Meshes
 The work bench has a number of features to help working with imported .stl models.
 

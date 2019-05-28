@@ -18,7 +18,7 @@ main_ScaleWB_Icon = os.path.join( path_scaleWB_icons , 'Scale_Mesh.svg')
 
 
 class ScriptXWorkbench (Workbench): 
-	MenuText = "Mesh Utils"
+	MenuText = "3D Printing Tools"
 	global main_ScaleWB_Icon
 	Icon = main_ScaleWB_Icon
 	

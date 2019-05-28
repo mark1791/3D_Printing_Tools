@@ -1,42 +1,42 @@
-# 3D Printing Tools
-FreeCAD Workbench for working on imported Meshes
-The work bench has a number of features to help working with imported .stl models. This uses the functionality used within the Mesh Design workbench to help the user to scale and modify meshes.
+# FreeCAD 3D Printing Tools
+A FreeCAD Workbench for working on imported Meshes.  
 
-The ability to convert an imperial mesh/meshes to Metric and vis versus.
+# Description
+This workbench has a number of features to help working with imported `.stl` models.  
+Utilizing the functionality available within the FreeCAD Mesh Design workbench this workbench helps the user to scale and modify meshes.
 
-Scale mesh down 50% and up 50%.
+## Features
 
-Scale mesh a set factor.
+* The ability to convert imperial mesh(es) to Metric and vice-versa.  
+* Scale a mesh up/down 50%.  
+* Scale mesh a set factor.  
+* Scale Mesh to fit a 3D printer bed size.  
+* Generate an STL box by the size of the printer bed for reference.  
+* Convert mesh(es) to solid(s).  
+* Make a transparent object.  
+* Make an object's transparancy Solid.  
+* Show/Hide an object.  
+* Change colours of objects to 11 different colours.  
+* Change the color of a group of objects to a random colour.  
+* Change the line width to 2.0  
+* Show the bounding box of an STL mesh.  
+* Define the printer bed size.  
+* Define the size of the object to be scaled from.  
+* Define the Scale factor for the mesh to be scaled, ex. 0.5 = 50% scale; 2.0 = 200% scale.
 
-Scale Mesh to fit a 3D printer bed size.
+## Requirements
+* FreeCAD v0.X.Y  
+* Python3  
+* Qt5
 
-Generate a STL box the szie of the printer bed for reference.
+## Installation
 
-Convert a mesh/meshes to a solid.
+### Manual Installation
+1. Use `git clone` or download the `.zip` file of this repo directly in to your [FreeCAD `Mod/` directory](https://www.freecadweb.org/wiki/Installing_more_workbenches).  
+2. Restart FreeCAD 
 
-Make an object transparent.
+## Feedback  
+If you have feedback or need to report bugs please participate on the related [3D Printing Tools FreeCAD Forum Post](https://forum.freecadweb.org/viewtopic.php?f=9&t=36564). 
 
-Make an objects transparancy Solid.
-
-Hide an object.
-
-Show an object.
-
-Change a group of objects to a random colour.
-
-Change colours of objects to 11 Colours.
-
-Change the line width to 2.0
-
-Show the bounding box of a Stl mesh.
-
-Define the printer bed size.
-
-Define the size of the object to be scaled from.
-
-Define the Scale factor for the mesh to be scaled, 0.5 = 50% scale 2.0 = 200% scale.
-
-
-How to install into FreeCAD, download the data into a directory called Meshtools and then move this directory to the relevent location based on the system you are using refer to https://www.freecadweb.org/wiki/Installing_more_workbenches for a manual install for working with FreeCAD
-
-Related Forum Post https://forum.freecadweb.org/viewtopic.php?f=9&t=36564
+## License
+LGPL v2.1

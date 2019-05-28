@@ -1,6 +1,6 @@
 # 3D Printing Tools
 FreeCAD Workbench for working on imported Meshes
-The work bench has a number of features to help working with imported .stl models.
+The work bench has a number of features to help working with imported .stl models. This uses the functionality used within the Mesh Design workbench to help the user to scale and modify meshes.
 
 The ability to convert an imperial mesh/meshes to Metric and vis versus.
 

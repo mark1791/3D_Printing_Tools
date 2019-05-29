@@ -31,6 +31,10 @@ Utilizing the functionality available within the FreeCAD Mesh Design workbench t
 
 ## Installation
 
+### Addon Manager
+3D Printing Tools workbench has been added to the [FreeCAD-adoons](https://github.com/FreeCAD/FreeCAD-addons) repository and is therefore available to download from the built-in [Addon Manager](https://github.com/FreeCAD/FreeCAD-addons#1-builtin-addon-manager).  
+**Note:** Restarting FreeCAD is required to enable the workbench.
+
 ### Manual Installation
 1. Use `git clone` or download the `.zip` file of this repo directly in to your [FreeCAD `Mod/` directory](https://www.freecadweb.org/wiki/Installing_more_workbenches).  
 2. Restart FreeCAD 

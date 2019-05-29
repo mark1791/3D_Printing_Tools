@@ -138,16 +138,13 @@ class MeshXScaleGeomCmd:
 				obj = sel[count]
 				if self.changevalue == "Bounding_Box_Show":
 					global BoundingBoxShow
-					#doc=App.activeDocument()
-					#doc.getObject(obj.Name).BoundingBox = BoundingBoxShow
-					#FreeCADGui.getDocument("Unnamed").getObject(obj.Label).BoundingBox = BoundingBoxShow
 					if BoundingBoxShow == True:
 						FreeCADGui.ActiveDocument.getObject(obj.Label).BoundingBox = BoundingBoxShow
 						BoundingBoxShow = False
 					else:
 						FreeCADGui.ActiveDocument.getObject(obj.Label).BoundingBox = BoundingBoxShow
 						BoundingBoxShow = True
-					#FreeCADGui.getDocument("Unnamed").getObject("Lower_Die_STL_Test").BoundingBox = True
+					
 				else:
 					mesh = obj.Mesh.copy()
 					mesh.transform(mat)

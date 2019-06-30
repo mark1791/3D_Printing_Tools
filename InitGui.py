@@ -14,7 +14,7 @@ path_scaleWB = os.path.dirname(_SMutils.__file__)
 path_scaleWB_icons =  os.path.join( path_scaleWB, 'Resources', 'icons')
 _SMutils.setIconsPath(path_scaleWB_icons)
 global main_ScaleWB_Icon
-main_ScaleWB_Icon = os.path.join( path_scaleWB_icons , 'Scale_Mesh.svg')
+main_ScaleWB_Icon = os.path.join( path_scaleWB_icons , '3D_Printing_Tools.svg')
 
 
 class ScriptXWorkbench (Workbench): 

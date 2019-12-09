@@ -34,7 +34,7 @@ class MeshXScaleGeomCmd:
 		
 	def Activated(self): 
 		# Resduce Mesh Manipulation Module
-		FreeCAD.Console.PrintMessage('Mesh Manipulation Utlity Module Started\n')
+		FreeCAD.Console.PrintMessage('Mesh Manipulation Utility Module Started\n')
 		import Mesh,BuildRegularGeoms
 		
 		#Setup for global variables change the Printer Bed size
@@ -125,7 +125,7 @@ class MeshXScaleGeomCmd:
 			FreeCAD.Console.PrintMessage('Mesh Box Created Successfully\n')
 			mat_scale_on = False
 		
-		#Trun on Bounding Box
+		#Turn on Bounding Box
 		if self.changevalue == "Bounding_Box_Show":
 			mat_scale_on = True
 			
@@ -151,7 +151,7 @@ class MeshXScaleGeomCmd:
 					Mesh.show(mesh)
 					FreeCAD.Console.PrintMessage('Object Processed ' + str(count) + '\n')
 				count = count + 1
-		FreeCAD.Console.PrintMessage('Mesh Manipulation Utlity Module Completed')
+		FreeCAD.Console.PrintMessage('Mesh Manipulation Utility Module Completed')
 		
 	def GetResources(self):  
 		if self.changevalue == "Descale_Com":

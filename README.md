@@ -14,7 +14,7 @@ Utilizing the functionality available within the FreeCAD Mesh Design workbench t
 * Generate an STL box by the size of the printer bed for reference.  
 * Convert mesh(es) to solid(s).  
 * Make a transparent object.  
-* Make an object's transparancy Solid.  
+* Make an object's transparency Solid.  
 * Show/Hide an object.  
 * Change colours of objects to 11 different colours.  
 * Change the color of a group of objects to a random colour.  
@@ -31,8 +31,8 @@ Utilizing the functionality available within the FreeCAD Mesh Design workbench t
 
 ## Installation
 
-### Addon Manager
-3D Printing Tools workbench has been added to the [FreeCAD-adoons](https://github.com/FreeCAD/FreeCAD-addons) repository and is therefore available to download from the built-in [Addon Manager](https://github.com/FreeCAD/FreeCAD-addons#1-builtin-addon-manager).  
+### Automatic Installation (recommended)
+3D Printing Tools workbench has been added to the [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons) repository and is therefore available to download from the built-in [Addon Manager](https://github.com/FreeCAD/FreeCAD-addons#1-builtin-addon-manager).  
 **Note:** Restarting FreeCAD is required to enable the workbench.
 
 ### Manual Installation

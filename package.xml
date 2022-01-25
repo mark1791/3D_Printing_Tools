@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>3D Printing Tools</name>
+  <description>This workbench has a number of features to help working with imported .stl models. Utilizing the functionality available within the FreeCAD Mesh Design workbench this workbench helps the user to scale and modify meshes.</description>
+  <version>1.0.0</version>
+  <date>2019-06-30</date>
+  <maintainer email="mark1791@someplace.com">Your Name (mark1791)</maintainer>
+  <license file="LICENSE">LGPLv2.1</license>
+  <url type="repository" branch="master">https://github.com/mark1791/3D_Printing_Tools</url>
+  <url type="readme">https://github.com/mark1791/3D_Printing_Tools/blob/master/README.md#freecad-3d-printing-tools</url>
+  <url type="website">https://forum.freecadweb.org/viewtopic.php?f=9&t=36564</url>
+  <icon>Resources/icons/3D_Printing_Tools.svg</icon>
+
+  <content>
+    <workbench>
+      <classname>3D Printing Tools</classname>
+      <subdirectory>./</subdirectory>
+    </workbench>
+  </content>
+
+</package>
